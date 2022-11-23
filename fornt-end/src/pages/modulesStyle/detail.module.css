@@ -1,0 +1,26 @@
+.count{
+    opacity: 0.6;
+    margin: 16px 0 !important;
+}
+.wrapper{
+    padding: 24px !important;
+    background-color: rgb(32, 38, 57);
+}
+
+.img{
+    background-image: url('https://i.scdn.co/image/ab67706f000000031c1214c64dcce268162ff658');
+    min-height: 300px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button{
+    text-align: center;
+    width: 150px;
+    margin-inline: 5px;
+    padding: 10px!important;
+}
+.wrapper_button{
+    text-align: center;
+}

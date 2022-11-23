@@ -1,0 +1,10 @@
+{
+    "production": {
+        "username": "root",
+        "password": "khanhbg12aA@",
+        "database_name": "music_app",
+        "host": "localhost",
+        "port": 3306,
+        "dialect": "sqlite"
+    }
+}

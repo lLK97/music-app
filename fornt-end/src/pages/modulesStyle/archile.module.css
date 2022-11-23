@@ -1,0 +1,25 @@
+
+.wrapper{
+    background-color: rgb(32, 38, 57, 1);
+    color: white;
+    font-size: 12px;
+    padding: 24px;
+}
+.wrapper_filter{
+    margin:64px auto !important;
+   justify-content: center;
+}
+.block_item{
+    padding: 12px 24px;
+    margin-inline: 8px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px !important;
+    cursor: pointer;
+}
+
+.active_filter{
+    background-color: white;
+    color: black;
+}

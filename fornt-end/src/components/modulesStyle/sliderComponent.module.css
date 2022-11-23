@@ -1,0 +1,27 @@
+.slide_image1{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(255,255,255,0.1)), url(https://billboardvn.vn/wp-content/uploads/2022/08/Screen-Shot-2022-08-18-at-11.32.45-AM.jpg);
+}
+.slide_image2{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(255,255,255,0.1)),url(https://pbs.twimg.com/media/DkEXoLXUcAEyGyr.jpg);
+}
+.slide_image3{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(255,255,255,0.1)),url(https://i.ytimg.com/vi/w_VkFudfHnI/maxresdefault.jpg);
+}
+
+.slide_item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    border-radius: 15px;
+    padding-left: 24px;
+    padding-bottom: 24px !important;
+    padding-top: 108px;
+    color: white;
+    font-family: 'Italianno' !important;
+    /* max-height: 300px; */
+}
+
+.wrapper_slide{
+    padding: 8px;
+}
+

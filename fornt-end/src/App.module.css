@@ -1,0 +1,65 @@
+@font-face{
+  font-family: 'Inter-VariableFont_slnt';
+  src: local('Inter-VariableFont_slnt'),
+  url('./assets/font/Inter-VariableFont.ttf') format('truetype')
+}
+@font-face{
+  font-family: 'Italianno';
+  src: local("Italianno"),
+    url("./assets/font/Italianno-Regular.ttf") format("truetype");
+}
+
+:root{
+  --line_bottom:  1px solid rgba(110, 110, 110, 0.516);
+}
+
+
+/* scroll Bar  */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* end */
+
+a{
+  text-decoration: none !important;
+}
+
+
+.root{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(120deg, rgb(32, 38, 57) 25%, rgb(63, 76, 119) 75%);
+    margin: 0 !important;
+    overflow-x: hidden;
+    font-family: 'Inter-VariableFont_slnt';
+}
+
+.audioPlay{
+  height: calc(100vh - 85px) !important;
+  overflow-y: scroll !important;
+}
+
+.left{
+    background-color: rgba(22, 26, 38, 0.522);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.right{
+  padding: 0px !important;
+  height: calc(100% - 0px);
+  overflow-y: scroll;  
+}
+
+.wrapper_head{
+  position: fixed;
+  width: 83.3333%;
+  padding: 16px 0 !important;
+  background: linear-gradient(120deg, rgb(32, 38, 57) 25%, rgb(63, 76, 119) 75%) !important;
+  z-index: 100;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 5px 10px -5px !important;
+}
+
+.content{
+  /* padding-inline: 25px; */
+  margin-top: 64px;
+}

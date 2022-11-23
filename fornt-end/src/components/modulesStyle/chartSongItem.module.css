@@ -1,0 +1,27 @@
+.wrapper{
+    padding: 8px 0 !important; 
+   width: 100%;
+   background-color: transparent !important;
+   border: 0 !important;
+}
+.wrapper:hover{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+.count, .img, .name, .album, .time_run{
+  align-self: center;
+}
+.count{
+    width: 32px;
+}
+.img{
+    width: 80px;
+}
+.img img{
+    width: 64px;
+    height: 48px;
+    border-radius: 5px;
+}
+.author, .album, .time_run{
+    opacity: 0.5;
+}
+

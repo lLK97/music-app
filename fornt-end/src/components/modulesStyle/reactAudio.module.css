@@ -1,0 +1,15 @@
+.wrapper_audio{
+    width: 100%;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-color: #202532 !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 5px 10px -5px !important;
+}
+
+.wrapper_audio audio{
+    margin:auto;
+}

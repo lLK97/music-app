@@ -1,0 +1,33 @@
+.wrapper{
+    margin: 32px 0 16px 0;
+    color: white;
+}
+
+.wrapper_button{
+    margin: 16px 0;
+    display: flex;
+}
+.button {
+    margin-right: 16px;
+    padding: 8px 16px;
+    border-radius: 5px !important;
+    background-color: #2f4881;
+    border: 0;
+    width: 100px;
+}
+
+.button:hover, .button:focus{
+    box-shadow: none !important;
+}
+
+
+.link{
+    margin: 0 0 0 auto;
+}
+
+
+
+
+.list_song{
+  
+}

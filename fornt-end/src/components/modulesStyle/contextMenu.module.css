@@ -1,0 +1,29 @@
+.wrapper{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    padding: 16px !important;
+    border-radius: 5px;
+    background-color: #151f55;
+    color: white !important;
+    transform: translate(-100%, -100%);
+    z-index: 1000;
+}
+
+.utilities{
+    background-color: rgba(255, 255, 255, 0.089) !important;
+    border-radius: 5px;
+ 
+}
+.itemUtilities{
+    padding: 12px 0 ;
+    text-align: center;
+}
+.itemUtilities:hover{
+    background-color: rgba(255, 255, 255, 0.214) !important;
+    cursor: pointer;
+}
+
+.icon{
+    margin-right: 12px !important;
+}

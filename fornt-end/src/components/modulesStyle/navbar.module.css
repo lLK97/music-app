@@ -1,0 +1,51 @@
+
+
+
+.wrapper_navbar{
+  padding-inline: 16px !important;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+/* Logo */
+.logo_navbar{
+  padding: 24px 0px !important;
+  border-bottom: var(--line_bottom);
+ 
+}
+
+.title{
+  background-image: url('../../assets/image/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 36px 0px;
+  font-family: 'Italianno' !important;
+}
+
+/* end */
+
+/* Item Navbar */
+.wrapper_item_menu{
+  padding: 16px 0 !important;
+  border-bottom: var(--line_bottom);
+}
+.item_menu {
+  color: white !important;
+  display: flex;
+  height: 50px;
+  padding-left: 16px;
+  align-items: center;
+  cursor: pointer;
+}
+.icon{
+  margin-right: 15px !important;   
+}
+
+.active_item{
+  background-color: rgb(78, 78, 78);
+}
+
+/* end  */

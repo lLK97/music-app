@@ -1,0 +1,21 @@
+.wrapper_setting{
+    position: absolute;
+    background-color: rgba(22, 26, 38, 0.522);
+    z-index: 1000;
+    padding: 16px 0 !important;
+    transform: translate(-10%, 10%);
+    border-radius: 5%;
+
+}
+.item_menu{
+    padding: 16px 32px;
+    direction: ltr; 
+    display: flex;
+    color: white;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}

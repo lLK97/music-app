@@ -1,0 +1,18 @@
+*{
+    color: white;
+}
+
+/* audio player */
+.rhap_container{
+    background-color: transparent !important;
+    width: 50% !important;
+    margin: auto;
+    border: 0;
+}
+#rhap_current-time, .rhap_total-time{
+    color: white !important;
+}
+
+.rhap_play-status--paused{
+    
+}

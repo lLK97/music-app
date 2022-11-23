@@ -1,0 +1,27 @@
+.img{
+    width: 100%;
+    min-height: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    filter: brightness(0.6);
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 5px 15px;
+}
+.img_overlay{
+   
+}
+.wrapper_thumb{
+   border: 0 !important;
+   border-radius: 10px !important;
+}
+
+.name{
+    font-family: 'Italianno' !important;
+    position: absolute;
+    bottom: 0;
+}
+
+.column{
+    margin-bottom: 32px;
+}

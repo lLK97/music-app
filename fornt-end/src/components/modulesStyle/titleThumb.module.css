@@ -1,0 +1,10 @@
+.link_text{
+    margin: 0 0 16px auto;
+    width: fit-content;
+    font-size: 18px;
+}
+
+.link_text a{
+    text-decoration: none;
+    color: white;
+}

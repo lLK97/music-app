@@ -1,0 +1,37 @@
+.wrapper{
+    margin-bottom: 0px;
+    color: white;
+    font-size: 14px;
+    padding: 16px 32px 16px 16px !important;
+}
+.icon{
+    margin: auto !important;
+    display: none ;
+}
+.wrapper:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+.wrapper:hover .icon{
+   display: flex;
+   text-align: center;
+   width: 30px;
+   height: 30px;
+   line-height: 30px;
+   padding: 0;
+}
+.wrapper:hover .icon:hover{
+    background-color: rgba(255, 255, 255, 0.456);
+    border-radius: 50%;
+    cursor: pointer;
+ }
+ .icon i{
+    line-height: 30px;
+    margin:auto;
+ }
+ 
+
+
+.url_img{
+    border-radius: 5px !important;
+}
